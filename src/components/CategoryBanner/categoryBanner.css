@@ -1,0 +1,9 @@
+.category-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 239px;
+  background-color: #0e0e0e;
+  color: #fff;
+  margin-bottom: 160px;
+}

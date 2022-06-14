@@ -1,0 +1,43 @@
+.productCard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 125px;
+  margin-bottom: 160px;
+}
+
+/* mirrors every second product card */
+.productCard:nth-child(2n) .productCard__content {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.productCard:nth-child(2n) .productCard__image-frame {
+  grid-column: 2;
+}
+
+.productCard__image-frame {
+  width: 540px;
+  height: 560px;
+}
+
+.productCard__image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.productCard__content {
+  display: grid;
+  align-content: center;
+}
+
+.productCard__buttons {
+  display: flex;
+  gap: 20px;
+}
+.productCard__price {
+  margin: 0 0 46px 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1.28571px;
+}

@@ -1,0 +1,94 @@
+.nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 96px;
+  background-color: #0e0e0e;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.2);
+  margin: 0 165px;
+  color: #ffffff;
+  z-index: 2;
+}
+
+.nav__nav-links {
+  display: flex;
+  gap: 34px;
+}
+
+.nav__nav-link {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.nav__cart-icon,
+.nav__nav-link:hover {
+  color: #d87d4a;
+  cursor: pointer;
+}
+
+.nav__cart-quantity {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 9px;
+  font-weight: 700;
+  color: #fff;
+  top: 31px;
+  right: -4px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #d87d4a;
+}
+
+/* Mobile */
+
+.nav__mobile-wrapper {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav__mobile--menu {
+  align-items: center;
+  gap: 42px;
+}
+
+.fa-bars {
+  font-size: 20px;
+  display: none;
+}
+
+.nav__mask {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  right: 0%;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.nav__mobile {
+  position: relative;
+  margin: 0px 0px;
+  padding: 96px 39px 67px 40px;
+  width: 100%;
+  height: fit-content;
+  background-color: #fff;
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  right: 0%;
+  z-index: 2;
+}

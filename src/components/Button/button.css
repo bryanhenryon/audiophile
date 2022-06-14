@@ -1,0 +1,87 @@
+button:disabled,
+button[disabled] {
+  background-color: #d87d4a;
+  opacity: 0.5;
+}
+
+.btn {
+  display: flex;
+  height: 48px;
+  width: 160px;
+  font-size: 13px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 18px;
+  letter-spacing: 1px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn--outline {
+  background-color: transparent;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+.btn--outline:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+.btn--orange {
+  background-color: #d87d4a;
+  color: #fff;
+}
+
+.btn--orange:hover {
+  background-color: #fbaf85;
+}
+
+.btn--black {
+  color: #fff;
+  background-color: #000000;
+}
+
+.btn--black:hover {
+  color: #fff;
+  background-color: #4c4c4c;
+}
+
+.btn--submit {
+  background-color: #d87d4a;
+  color: #fff;
+  width: 100%;
+}
+
+.quantity-button {
+  display: flex;
+  height: 48px;
+  width: 120px;
+  font-size: 13px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f1f1;
+  color: #000000;
+}
+
+.quantity-button--increase,
+.quantity-button--decrease {
+  opacity: 0.25;
+  margin: 0 15px;
+  font-size: 15px;
+}
+
+.quantity-button--increase:hover,
+.quantity-button--decrease:hover {
+  cursor: pointer;
+  color: #d87d4a;
+}
